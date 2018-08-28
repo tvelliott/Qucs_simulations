@@ -1,0 +1,40 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=41,70,1369,1373,0.801995,0,0>
+  <Grid=10,10,0>
+  <DataSet=cap_multiplier.dat>
+  <DataDisplay=cap_multiplier.sch>
+  <OpenDisplay=1>
+  <Script=cap_multiplier.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 160 1267 1151 197 3 #c0c0c0 1 00 1 0 0.005 0.1 0 5 0.1 6 1 -1 0.5 1 315 0 225 "" "" "Output Voltage">
+	<"out.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 160 321 1162 211 3 #c0c0c0 1 00 1 0 0.005 0.1 1 9.3 2 17.1 1 -1 0.5 1 315 0 225 "" "" "Noisy VIN">
+	<"vin.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 160 569 1160 189 3 #c0c0c0 1 00 1 0 0.005 0.1 1 -0.708849 2 8 1 -1 0.5 1 315 0 225 "" "" "Cap Charging">
+	<"cap_out.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 160 803 1154 193 3 #c0c0c0 1 00 1 0 0.005 0.1 1 -0.00123407 0.001 0.003 1 -1 0.5 1 315 0 225 "" "" "Zener Current">
+	<"Pr2.It" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 160 1017 1149 177 3 #c0c0c0 1 00 1 0 0.005 0.1 1 -0.0548643 0.2 0.663582 1 -1 1 1 315 0 225 "" "" "Output Current">
+	<"Pr1.It" #0000ff 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
